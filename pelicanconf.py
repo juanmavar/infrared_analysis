@@ -7,6 +7,7 @@ SITENAME = u'Example Pelican website using GitLab Pages!'
 SITEURL = ''
 
 PATH = 'content'
+OUTPUT_PATH = 'public'
 
 TIMEZONE = 'Europe/Athens'
 
