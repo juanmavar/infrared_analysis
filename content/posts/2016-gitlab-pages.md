@@ -6,6 +6,6 @@ Slug: pelican-on-gitlab-pages
 
 This site is hosted on GitLab Pages!
 
-Read more at https://gitlab.com/pages/pelican.
+The source code of this site is at <https://gitlab.com/pages/pelican>.
 
-Learn about GitLab Pages at https://pages.gitlab.io.
+Learn about GitLab Pages at <https://pages.gitlab.io>.
