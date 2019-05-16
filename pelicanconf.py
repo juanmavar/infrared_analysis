@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'thedude'
-SITENAME = u'Example Pelican website using GitLab Pages!'
+AUTHOR = 'thedude'
+SITENAME = 'Example Pelican website using GitLab Pages!'
 SITEURL = ''
 
 PATH = 'content'
@@ -11,7 +11,7 @@ OUTPUT_PATH = 'public'
 
 TIMEZONE = 'Europe/Athens'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
