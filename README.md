@@ -2,10 +2,11 @@
 
 ----
 
-Example [Pelican] website using GitLab Pages.
+Example [Pelican] website using GitLab Pages. Check the resulting website here: <https://pages.gitlab.io/pelican>
 
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
+Learn more about GitLab Pages at https://pages.gitlab.io and the [official
+documentation](https://docs.gitlab.com/ce/user/project/pages/), including
+[how to fork a project like this one to get started from](https://docs.gitlab.com/ee/user/project/pages/getting_started_part_two.html#fork-a-project-to-get-started-from).
 
 ---
 
@@ -24,19 +25,7 @@ documentation https://docs.gitlab.com/ce/user/project/pages/.
 ## GitLab CI
 
 This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
-
-```
-image: python:2.7-alpine
-
-pages:
-  script:
-  - pip install -r requirements.txt
-  - pelican -s publishconf.py
-  artifacts:
-    paths:
-    - public/
-```
+defined in the file [`.gitlab-ci.yml`](.gitlab-ci.yml).
 
 ## Building locally
 
@@ -52,12 +41,17 @@ Read more at Pelican's [documentation].
 
 ## GitLab User or Group Pages
 
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
+To use this project as your user/group website, you will need to perform
+some additional steps:
 
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
+1. Rename your project to `namespace.gitlab.io`, where `namespace` is
+your `username` or `groupname`. This can be done by navigating to your
+project's **Settings > General (Advanced)**.
+
+2. Adjust Pelican's `SITEURL` configuration setting in `pelicanconf.py` to
+the new URL (e.g. `https://namespace.gitlab.io`)
+
+Read more about [GitLab Pages for projects and user/group websites][pagesdoc].
 
 ## Did you fork this project?
 
@@ -75,7 +69,6 @@ unless you want to contribute back to the upstream project.
 
 [ci]: https://about.gitlab.com/gitlab-ci/
 [pelican]: http://blog.getpelican.com/
-[install]: http://docs.getpelican.com/en/3.6.3/install.html
+[install]: https://docs.getpelican.com/en/4.1.0/install.html
 [documentation]: http://docs.getpelican.com/
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+[pagesdoc]: https://docs.gitlab.com/ce/user/project/pages/getting_started_part_one.html
