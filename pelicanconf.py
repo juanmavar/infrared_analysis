@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'thedude'
 SITENAME = 'Example Pelican website using GitLab Pages!'
-SITEURL = '/pelican'
+SITEURL = ''
 
 PATH = 'content'
 OUTPUT_PATH = 'public'
