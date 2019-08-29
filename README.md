@@ -33,8 +33,7 @@ To work locally with this project, you'll have to follow the steps below:
 
 1. Fork, clone or download this project
 1. [Install][] Pelican
-1. Generate the website: `make html`
-1. Preview your project: `make serve`
+1. Regenerate and serve on port 8000: `make devserver`
 1. Add content
 
 Read more at Pelican's [documentation].
@@ -48,7 +47,7 @@ some additional steps:
 your `username` or `groupname`. This can be done by navigating to your
 project's **Settings > General (Advanced)**.
 
-2. Adjust Pelican's `SITEURL` configuration setting in `pelicanconf.py` to
+2. Adjust Pelican's `SITEURL` configuration setting in `publishconf.py` to
 the new URL (e.g. `https://namespace.gitlab.io`)
 
 Read more about [GitLab Pages for projects and user/group websites][pagesdoc].
