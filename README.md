@@ -68,6 +68,6 @@ unless you want to contribute back to the upstream project.
 
 [ci]: https://about.gitlab.com/gitlab-ci/
 [pelican]: http://blog.getpelican.com/
-[install]: https://docs.getpelican.com/en/4.1.0/install.html
+[install]: https://docs.getpelican.com/en/stable/install.html
 [documentation]: http://docs.getpelican.com/
 [pagesdoc]: https://docs.gitlab.com/ce/user/project/pages/getting_started_part_one.html
