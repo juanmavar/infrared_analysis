@@ -1,26 +1,12 @@
-![Build Status](https://gitlab.com/pages/pelican/badges/master/build.svg)
-
-----
+# Pelican on GitLab Pages
 
 Example [Pelican] website using GitLab Pages. Check the resulting website here: <https://pages.gitlab.io/pelican>
 
-Learn more about GitLab Pages at https://pages.gitlab.io and the [official
+Learn more about [GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/) and the [official
 documentation](https://docs.gitlab.com/ce/user/project/pages/), including
-[how to fork a project like this one to get started from](https://docs.gitlab.com/ee/user/project/pages/getting_started_part_two.html#fork-a-project-to-get-started-from).
+[how to fork a project like this one to get started](https://docs.gitlab.com/ee/user/project/pages/getting_started_part_two.html#fork-a-project-to-get-started-from).
 
 ---
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [GitLab CI](#gitlab-ci)
-- [Building locally](#building-locally)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## GitLab CI
 
