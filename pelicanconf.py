@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = 'thedude'
+AUTHOR = 'GitLab'
 SITENAME = 'Example Pelican website using GitLab Pages!'
 SITEURL = ''
 
