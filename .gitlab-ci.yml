@@ -3,8 +3,14 @@ image: python:3.8-alpine
 pages:
   stage: deploy
   script:
-  - apk update && apk add make
+  - apk add --update --no-cache make subversion
   - pip install -r requirements.txt
+  ## Uncomment the following lines starting with '-' to install
+  ## a custom theme from https://github.com/getpelican/pelican-themes.
+  ## Make sure to replace <theme-name> with the name of the theme.
+  ## See https://gitlab.com/pages/pelican/-/issues/1#note_424950941.
+  #- svn export https://github.com/getpelican/pelican-themes/trunk/<theme-name> /tmp/<theme-name>
+  #- pelican-themes --install /tmp/the_theme
   - make publish
   artifacts:
     paths:
