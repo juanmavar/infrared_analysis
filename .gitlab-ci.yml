@@ -10,7 +10,7 @@ pages:
   ## Make sure to replace <theme-name> with the name of the theme.
   ## See https://gitlab.com/pages/pelican/-/issues/1#note_424950941.
   #- svn export https://github.com/getpelican/pelican-themes/trunk/<theme-name> /tmp/<theme-name>
-  #- pelican-themes --install /tmp/the_theme
+  #- pelican-themes --install /tmp/<theme-name>
   - make publish
   artifacts:
     paths:
