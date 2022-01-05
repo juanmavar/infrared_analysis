@@ -38,6 +38,28 @@ the new URL (e.g. `https://namespace.gitlab.io`)
 
 Read more about [GitLab Pages for projects and user/group websites][pagesdoc].
 
+## Use a custom theme
+
+To use a custom theme:
+
+1. Visit <https://github.com/getpelican/pelican-themes> and pick the name of
+   the theme you want to use.
+1. Uncomment the following lines from `.gitlab-ci.yml`, replacing `<theme_name>
+   with the name of the theme you chose:
+
+   ```yaml
+   - svn export https://github.com/getpelican/pelican-themes/trunk/<theme-name> /tmp/<theme-name>
+   - pelican-themes --install /tmp/<theme-name>
+   ```
+
+1. Edit `pelicanconf.py` and add the theme:
+
+   ```plaintext
+   THEME = '/tmp/<theme-name>'
+   ```
+
+For more information, see the discussion in [issue #1](https://gitlab.com/pages/pelican/-/issues/1).
+
 ## Did you fork this project?
 
 If you forked this project for your own use, please go to your project's
