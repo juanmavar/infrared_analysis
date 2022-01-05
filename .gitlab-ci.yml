@@ -16,7 +16,7 @@ pages:
     paths:
     - public/
   rules:
-    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
 
 test:
   stage: test
@@ -25,4 +25,4 @@ test:
   - pip install -r requirements.txt
   - make publish
   rules:
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
