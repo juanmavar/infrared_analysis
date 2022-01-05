@@ -44,7 +44,7 @@ To use a custom theme:
 
 1. Visit <https://github.com/getpelican/pelican-themes> and pick the name of
    the theme you want to use.
-1. Uncomment the following lines from `.gitlab-ci.yml`, replacing `<theme_name>
+1. Uncomment the following lines from `.gitlab-ci.yml`, replacing `<theme_name>`
    with the name of the theme you chose:
 
    ```yaml
