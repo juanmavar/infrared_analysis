@@ -10,7 +10,7 @@ pages:
   ## See https://gitlab.com/pages/pelican/-/blob/main/README.md#use-a-custom-theme
   ##
   #- svn export https://github.com/getpelican/pelican-themes/trunk/<theme-name> /tmp/<theme-name>
-  #- pelican-themes --install /tmp/the_theme
+  #- pelican-themes --install /tmp/<theme-name>
   - make publish
   artifacts:
     paths:
