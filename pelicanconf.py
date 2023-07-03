@@ -34,7 +34,7 @@ DEFAULT_PAGINATION = 10
 
 # PLUGINS--------------------------------
 # Where to look for plugins
-PLUGIN_PATHS = ['../pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']  #['../pelican-plugins']
 # Which plugins to enable
 # PLUGIN PARA PONER NUMERO A LAS FIGURAS ->  figure-ref
 #https://github.com/cmacmackin/figure-ref/tree/40e04d32bff468a6b3e63c373c5d95fca39783fe
