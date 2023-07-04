@@ -5,7 +5,7 @@ Ordinal: 001
 
 # PROYECTO - PROCESAMIENTO DE IMAGENES DE MORRONES
 
-El precio de los morrones en invierno es un tema complejo. Discriminar cuáles morrones están frescos y cuáles están pasados adquiere una importancia crucial para el consumidor en una economía de mercado fluctuante y con una inflación contenida a base de una presión asfixiante sobre el tipo de cambio.
+El precio de los morrones en invierno es un tema complejo. Discriminar cuáles morrones están frescos y cuáles están pasados adquiere una importancia crucial para el consumidor en una economía de mercado fluctuante.
 
 Este proyecto utiliza el análisis de imágenes para aumentar la calidad de los morrones. Se trabaja con imágenes como la de la Figura {#fig_morrones_grises}.
 
@@ -17,7 +17,7 @@ Este proyecto utiliza el análisis de imágenes para aumentar la calidad de los 
 </figure>
 
 
-Utilizando el algoritmo de Farming et al. se logra se logra madurar los morrones haciendo que queden sanos y atractivos para el consumidor. El algoritmo fue programado en Python. 
+Utilizando el algoritmo de Farmer et al. [@@fa2021] se logra madurar los morrones haciendo que queden sanos y atractivos para el consumidor. El algoritmo fue programado en Python. 
 
 ``` python
 def madurar(img, param1, param2):
