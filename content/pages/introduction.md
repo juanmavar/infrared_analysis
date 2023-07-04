@@ -3,6 +3,8 @@ Date: 2023-07-03
 Category: Page
 Ordinal: 001
 
+# PROYECTO - PROCESAMIENTO DE IMAGENES DE MORRONES
+
 El precio de los morrones en invierno es un tema complejo. Discriminar cuáles morrones están frescos y cuáles están pasados adquiere una importancia crucial para el consumidor en una economía de mercado fluctuante y con una inflación contenida a base de una presión asfixiante sobre el tipo de cambio.
 
 Este proyecto utiliza el análisis de imágenes para aumentar la calidad de los morrones. Se trabaja con imágenes como la de la Figura {#fig_morrones_grises}.
