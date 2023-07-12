@@ -47,4 +47,14 @@ PLUGINS = ['figure-ref', 'pelican-cite']
 # si no, te quedan ordenadas alfabéticamente
 PAGE_ORDER_BY = 'ordinal'
 
+# UBICACION DE bibtex que usa el plugin pelican-cite
 PUBLICATIONS_SRC = 'content/biblio.bib'
+
+
+# CAMBIAR EL ASPECTO
+# Usar uno de los 'themes' de :  https://github.com/getpelican/pelican-themes
+#THEME = "<sustituir por la ubicacion>/pelican-themes/tuxlite_zf"
+#THEME = "<sustituir por la ubicacion>/pelican-themes/tuxlite_tbs"
+#THEME = "<sustituir por la ubicacion>/pelican-themes/mnmlist"
+#THEME = "<sustituir por la ubicacion>/pelican-themes/gum"
+#THEME = "<sustituir por la ubicacion>/pelican-themes/foundation-default-colours"
