@@ -1,9 +1,9 @@
 # TIMAG 2023 - PROYECTO FINAL  
 # PROCESAMIENTO DE IMAGENES DE MORRONES
 
-[Página web del proyecto](https://pages.gitlab.io/plain-html) (ingresar URL en **Settings --> Pages --> Access pages**. Puede aparecer luego del primer commit del repositorio) 
+[Página web del proyecto](http://timag.pages.fing.edu.uy/pelican) (ingresar URL en **Settings --> Pages --> Access pages**. Puede aparecer luego del primer commit del repositorio) 
 
-[Repositorio del proyecto](https://pages.gitlab.io/plain-html) 
+[Repositorio del proyecto](https://gitlab.fing.edu.uy/timag/pelican) 
 
 
 Este es el repositorio del proyecto de procesamiento de imágenes de morrones.
