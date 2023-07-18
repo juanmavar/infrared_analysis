@@ -4,26 +4,25 @@ Category: Page
 Ordinal: 001
 
 
-# PROYECTO - PROCESAMIENTO DE IMAGENES DE MORRONES
+# PROYECTO - ANALISIS DE CULTIVOS MEDIANTE IMAGENES IR
 
 
-El precio de los morrones en invierno es un tema complejo. Discriminar cuáles morrones están frescos y cuáles están pasados adquiere una importancia crucial para el consumidor en una economía de mercado fluctuante.
+El precio de los morrones en invierno es un tema complejo. Discriminar cuáles morrones están frescos y cuáles están pasados adquiere una importancia crucial para el consumidor en una economía de mercado fluctuante.El monitoreo de la temperatura de los cultivos proporciona información valiosa para los agricultores y los investigadores. Esta información es útil para diferentes aplicaciones como detección de estrés hídrico, evaluación de la salud de la planta, estimación de rendimiento y eficiencia en el uso de recursos.
 
-Este proyecto utiliza el análisis de imágenes para aumentar la calidad de los morrones. Se trabaja con imágenes como la de la Figura {#fig_morrones_grises}.
+Este proyecto utiliza el análisis de imágenes infrarrojas para generar una lookup table (LUT) para cada imagen, que permita asociar el color de cada pixel a un valor de temperatura en grados Celsius. Se trabaja con imágenes tomadas en campo y laboratorio como las de la Figura {#fig_ejemplo_IR}.
 
 <figure>
-  <!--Incluir camino a la imagen a mostrar-->
-  <img src="../images/peppers_rotada.png" width="200">
+  <img src="../images/image_1_IR.jpg" width="300">
+  <img src="../images/image_2_IR.jpg" width="300">
   <figcaption>
-  fig_morrones_grises :: La figura de morrones grises.
+  fig_ejemplo_IR :: Imágenes infrarrojas de ejemplo.
   </figcaption>
 </figure>
 
-
-Utilizando el algoritmo de Farmer et al. [@fa2021] se logra madurar los morrones haciendo que queden sanos y atractivos para el consumidor. El algoritmo fue programado en Python. 
+Utilizando template matching, se identifica la temperatura máxima y mínima presente en la imagen, a partir de las cuales se genera la LUT utilizando como referencia la escala presente a la derecha. El algoritmo fue programado en Python. 
 
 ``` python
-def madurar(img, param1, param2):
+def lut_temperatura(img, base_digitos):
     pass
     pass
     pass
@@ -32,13 +31,12 @@ def madurar(img, param1, param2):
 
 ```
 
-En la figura {#fig_morrones_2} se puede ver los morrones  antes y despues de procesar.
+En la figura {#fig_lut_1} se puede ver un ejemplo de la tabla generada, donde se muestran las primeras 10 filas.
 
 <figure>
-  <img src="../images/peppers_rotada.png" width="200">
-  <img src="../images/peppers.png" width="200">
+  <img src="../images/lut_1.png" width="200">
   <figcaption>
-  fig_morrones_2 :: Izquierda: Antes de procesar, Derecha: Luego del procesamiento.
+  fig_lut_1 :: Primeras 10 filas de LUT generada a partir de la imágen en campo.
   </figcaption>
 </figure>
 
