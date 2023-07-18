@@ -1,37 +1,30 @@
 # TIMAG 2023 - PROYECTO FINAL  
-# PROCESAMIENTO DE IMAGENES DE MORRONES
+# ANALISIS DE CULTIVOS MEDIANTE IMAGENES IR
 
-[Página web del proyecto](http://timag.pages.fing.edu.uy/pelican) (ingresar URL en **Settings --> Pages --> Access pages**. Puede aparecer luego del primer commit del repositorio) 
+[Página web del proyecto](http://juan.manuel.varela.pages.fing.edu.uy/proyecto-timag/)
 
-[Repositorio del proyecto](https://gitlab.fing.edu.uy/timag/pelican) 
+[Repositorio del proyecto](https://gitlab.fing.edu.uy/juan.manuel.varela/proyecto-timag) 
 
 
-Este es el repositorio del proyecto de procesamiento de imágenes de morrones.
-Este proyecto utiliza el análisis de imágenes para aumentar la calidad de los morrones. 
+Este es el repositorio del proyecto de análisis de cultivos mediante imágenes IR.
+Este proyecto utiliza el análisis de imágenes infrarrojas para generar una lookup table (LUT) a partir de la cual se pueda relacionar el color de cada pixel con una temperatura en grados Celsius. 
 
-Utilizando diversos algoritmos, se logra madurar los morrones haciendo que queden sanos y atractivos para el consumidor. 
+Se procesan las imágenes para detectar su temperatura máxima y mínima y a partir de la barra de la derecha se crea la tabla. 
 
-En la figura se puede ver los morrones  antes y despues de procesar.
+En la figura se puede ver los ejemplos de imágenes utilizadas.
 
 <figure>
-  <img src="data/images/peppers_rotada.png" width="200">
-  <img src="data/images/peppers.png" width="200">
+  <img src="data/images/image_1_IR.jpg" width="300">
+  <img src="data/images/image_2_IR.jpg" width="300">
   <figcaption>
-  Izquierda: Antes de procesar, Derecha: Luego del procesamiento.
+  Izquierda: Imagen tomada en campo, Derecha: Imagen tomada en laboratorio.
   </figcaption>
 </figure>
 
-Se utilizan las bases de datos ..... y ...... que pueden descargarse de 
+Se utiliza una base de datos con imágenes tomadas en campo y en laboratorio.
 
-```
-
-```
-
-En el directorio **data** pueden verse ejemplos de las imágenes de esas bases.
+En el directorio **data** pueden verse ejemplos de las imágenes de esta base.
 
 En la carpeta **src** se encuentra el código desarrollado en el proyecto.  
 Los principales resultados pueden verse en el notebook:
-
-```
-```
-Se tiene una breve guía de la creación de la página web en [_/page_conf/README.md_](./page_conf/README.md).
+**proyecto_ir**
