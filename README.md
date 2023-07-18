@@ -17,7 +17,7 @@ En la figura se puede ver los ejemplos de imágenes utilizadas.
   <img src="data/images/image_1_IR.jpg" width="300">
   <img src="data/images/image_2_IR.jpg" width="300">
   <figcaption>
-  Izquierda: Imagen tomada en campo, Derecha: Imagen tomada en laboratorio.
+  Izquierda: imagen tomada en campo, Derecha: imagen tomada en laboratorio.
   </figcaption>
 </figure>
 
@@ -25,6 +25,7 @@ Se utiliza una base de datos con imágenes tomadas en campo y en laboratorio.
 
 En el directorio **data** pueden verse ejemplos de las imágenes de esta base.
 
-En la carpeta **src** se encuentra el código desarrollado en el proyecto.  
+En la carpeta **src** se encuentra el código desarrollado en el proyecto.
+
 Los principales resultados pueden verse en el notebook:
-**proyecto_ir**
+**proyecto_ir.ipynb**
