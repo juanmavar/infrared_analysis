@@ -21,16 +21,6 @@ Este proyecto utiliza el análisis de imágenes infrarrojas para generar una loo
 
 Utilizando template matching, se identifica la temperatura máxima y mínima presente en la imagen, a partir de las cuales se genera la LUT utilizando como referencia la escala presente a la derecha. El algoritmo fue programado en Python. 
 
-``` python
-def lut_temperatura(img, base_digitos):
-    pass
-    pass
-    pass
-
-    return img_madurada
-
-```
-
 En la figura {#fig_lut_1} se puede ver un ejemplo de la tabla generada, donde se muestran las primeras 10 filas.
 
 <figure>
