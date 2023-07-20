@@ -1,4 +1,4 @@
-# TIMAG 2023 - PROYECTO FINAL  
+# TIMAG 2023 - PROYECTO FINAL - POSGRADO 19 
 # ANALISIS DE CULTIVOS MEDIANTE IMAGENES IR
 
 [Página web del proyecto](http://juan.manuel.varela.pages.fing.edu.uy/proyecto-timag/)
