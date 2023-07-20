@@ -4,7 +4,7 @@ Category: Page
 Ordinal: 001
 
 
-# PROYECTO - ANALISIS DE CULTIVOS MEDIANTE IMAGENES IR
+# PROYECTO - ANÁLISIS DE CULTIVOS MEDIANTE IMÁGENES INFRARROJAS
 
 
 El precio de los morrones en invierno es un tema complejo. Discriminar cuáles morrones están frescos y cuáles están pasados adquiere una importancia crucial para el consumidor en una economía de mercado fluctuante.El monitoreo de la temperatura de los cultivos proporciona información valiosa para los agricultores y los investigadores. Esta información es útil para diferentes aplicaciones como detección de estrés hídrico, evaluación de la salud de la planta, estimación de rendimiento y eficiencia en el uso de recursos.
