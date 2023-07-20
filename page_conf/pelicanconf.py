@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = 'Grupo 51'
+AUTHOR = 'Juan Manuel Varela'
 SITENAME = 'Tratamiento de imágenes 2023 - Proyecto final'
 
 PATH = 'content'
@@ -19,8 +19,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Facultad de Ingeniería', 'https://www.fing.edu.uy/'),
-         ('Instituto de Ingeniería Eléctrica', 'https://iie.fing.edu.uy/'),
-         ('Se pueden poner otros links en el pelicanconf', '#'),)
+         ('Instituto de Ingeniería Eléctrica', 'https://iie.fing.edu.uy/'),)
 
 # # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
