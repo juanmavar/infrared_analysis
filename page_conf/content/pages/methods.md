@@ -6,7 +6,7 @@ Ordinal: 002
 Se describirá el procedimiento paso a paso aplicado a la imagen de la Figura {#fig_imagen_procedimiento}.
 
 <figure>
-  <img src="../images/imagen_procedimiento.jpg" width="300">
+  <img src="../images/imagen_procedimiento.jpg" width="450">
   <figcaption>
   fig_imagen_procedimiento :: Imagen a analizar.
   </figcaption>
@@ -20,16 +20,16 @@ Para identificar la temperatura máxima y mínima detectada en la imagen a parti
 Como primer paso, se reconoció que los números tienen la misma fuente en todas las imágenes, por lo que se generó manualmente una base de 10 imágenes, una correspondiente a cada dígito posible. Para generar esta base se obtuvo cada dígito recortandolo de alguna imagen donde estuviera presente, se paso a escala de grises promediando los tres canales y se umbralizó de forma tal que todos los pixeles que pertenecieran al dígito tengan valor 0 y el resto 255. En la Figura {#fig_base_digitos} se puede observar la base de dígitos completa.
 
 <figure>
-  <img src="../images/base_0.png" width="50" style="margin-right: 10px;">
-  <img src="../images/base_1.png" width="50" style="margin-right: 10px;">
-  <img src="../images/base_2.png" width="50" style="margin-right: 10px;">
-  <img src="../images/base_3.png" width="50" style="margin-right: 10px;">
-  <img src="../images/base_4.png" width="50" style="margin-right: 10px;">
-  <img src="../images/base_5.png" width="50" style="margin-right: 10px;">
-  <img src="../images/base_6.png" width="50" style="margin-right: 10px;">
-  <img src="../images/base_7.png" width="50" style="margin-right: 10px;">
-  <img src="../images/base_8.png" width="50" style="margin-right: 10px;">
-  <img src="../images/base_9.png" width="50">
+  <img src="../images/base_0.png" height="60" style="margin-right: 10px;">
+  <img src="../images/base_1.png" height="60" style="margin-right: 10px;">
+  <img src="../images/base_2.png" height="60" style="margin-right: 10px;">
+  <img src="../images/base_3.png" height="60" style="margin-right: 10px;">
+  <img src="../images/base_4.png" height="60" style="margin-right: 10px;">
+  <img src="../images/base_5.png" height="60" style="margin-right: 10px;">
+  <img src="../images/base_6.png" height="60" style="margin-right: 10px;">
+  <img src="../images/base_7.png" height="60" style="margin-right: 10px;">
+  <img src="../images/base_8.png" height="60" style="margin-right: 10px;">
+  <img src="../images/base_9.png" height="60">
   <figcaption>
   fig_base_digitos :: Base de imágenes con dígitos del 0 al 9.
   </figcaption>
@@ -79,7 +79,7 @@ Para generar la LUT a partir de estos valores se extrae un perfil vertical por e
 Finalmente se genera la tabla donde cada fila es un par Color RGB-Temperatura en °C. En la Figura {#fig_tabla_procedimiento} se puede ver las primeras 10 filas de la LUT resultante, en la cual, para generar una visualización más informativa se pintó el fondo de cada fila con el color RGB correspondiente.
 
 <figure>
-  <img src="../images/tabla_procedimiento.png" width="300">
+  <img src="../images/tabla_procedimiento.png" width="220">
   <figcaption>
   fig_tabla_procedimiento :: Primeras 10 filas de la lookup table generada.
   </figcaption>
