@@ -40,10 +40,16 @@ Posteriormente se pudo ver que todas las imágenes tienen la etiqueta de tempera
 Por esto, para facilitar el proceso de matching, se recortan 6 ventanas que contengan por completo cada uno de los dígitos. Además se pasan estas imágenes a escala de grises y se umbralizan al igual que se hizo con las imágenes de la base. Esto se realiza para normalizar los dígitos de forma tal que la correlación sea mayor durante el matching, evitando los posibles efectos negativos de la transparencia de la etiqueta. En la figura {#fig_digitos_imagenes} se puede ver las 6 imágenes resultantes.
 
 <figure>
-  |    |    |    |
-  |:--:|:—:|:—:|
-  | <img src="digito1.png" style="margin: 10px; width:70px;"> | <img src="digito2.png" style="margin: 10px; width:70px;"> | <img src="digito3.png" style="margin: 10px; width:70px;"> |
-  | <img src="digito4.png" style="margin: 10px; width:70px;"> | <img src="digito5.png" style="margin: 10px; width:70px;"> | <img src="digito6.png" style="margin: 10px; width:70px;"> |
+  <p float="left">
+    <img src="../images/digito1.png" width="100" style="margin-right: 10px;">
+    <img src="../images/digito2.png" width="100" style="margin-right: 10px;">
+    <img src="../images/digito3.png" width="100">
+  </p>
+  <p float="left">
+    <img src="../images/digito4.png" width="100" style="margin-right: 10px;">
+    <img src="../images/digito5.png" width="100" style="margin-right: 10px;">
+    <img src="../images/digito6.png" width="100">
+  </p>
   <figcaption>
   fig_base_digitos :: Recortes de dígitos de la imagen.
   </figcaption>
