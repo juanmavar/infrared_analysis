@@ -8,7 +8,7 @@ Ordinal: 005
 
 En este proyecto se ha desarrollado en Python, una función de procesamiento de imágenes infrarrojas que genera una lookup table para asociar el color de cada píxel con una temperatura específica. La función demostró ser capaz de correlacionar con suficiente precisión el color de los píxeles de la imagen con valores de temperatura.
 
-El código de procesamiento de imágenes probó su eficacia para manipular y analizar los datos de la imagen infrarroja, lo que permitió la generación de una tabla de búsqueda detallada y precisa. Esto constituye una herramienta valiosa para analizar imágenes infrarrojas capturadas con esta cámara y extraer información de temperatura de fácil interpretación.
+El código de procesamiento de imágenes probó su eficacia para manipular y analizar los datos de la imagen infrarroja, lo que permitió la generación de una LUT detallada y precisa. Esto constituye una herramienta valiosa para analizar imágenes infrarrojas capturadas con esta cámara y extraer información de temperatura de fácil interpretación.
 
 A continuación se muestra el código de la función, que toma como entrada una imagen infrarroja y un diccionario con la base de imágenes de dígitos a identificar.
 
