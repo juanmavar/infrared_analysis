@@ -1,7 +1,11 @@
 Title: Acerca de ...
-Date: 2023-07-03
+Date: 2023-07-23
 Category: Page
 Ordinal: 006
 
 
-Esta página proporcionará información sobre el curso y los autores del proyecto
+Curso: Tratamiento de Imágenes por Computadora 2023 - FING - UdelaR
+
+Autor: Juan Manuel Varela
+
+Tutor: Ignacio Ramirez
