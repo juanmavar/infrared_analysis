@@ -40,7 +40,7 @@ PLUGIN_PATHS = ["pelican-plugins"]  # ['../pelican-plugins']
 # https://github.com/cmacmackin/figure-ref/tree/40e04d32bff468a6b3e63c373c5d95fca39783fe
 # PLUGIN PARA CITAS ->  pelican-cite
 # https://github.com/VorpalBlade/pelican-cite
-PLUGINS = ["figure-ref", "pelican-cite"]
+PLUGINS = ["figure-ref", "pelican-cite","render_math"]
 
 
 
@@ -58,4 +58,4 @@ PUBLICATIONS_SRC = "content/biblio.bib"
 #THEME = "<sustituir por la ubicacion>/pelican-themes/tuxlite_tbs"
 #THEME = "<sustituir por la ubicacion>/pelican-themes/mnmlist"
 #THEME = "<sustituir por la ubicacion>/pelican-themes/gum"
-THEME = "content/theme/elegant"
+THEME = "content/theme/nest"
