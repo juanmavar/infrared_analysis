@@ -51,7 +51,7 @@ Por esto, para facilitar el proceso de matching, se recortan 6 ventanas que cont
     <img src="../images/digito6.png" width="100">
   </p>
   <figcaption>
-  fig_base_digitos :: Recortes de dígitos de la imagen.
+  fig_digitos_imagenes :: Recortes de dígitos de la imagen.
   </figcaption>
 </figure>
 
