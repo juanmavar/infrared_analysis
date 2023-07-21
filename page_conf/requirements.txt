@@ -3,4 +3,5 @@ markdown
 typogrify
 BeautifulSoup4
 pybtex
+pelican-render-math
 
