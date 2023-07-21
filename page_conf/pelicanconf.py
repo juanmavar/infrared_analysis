@@ -59,3 +59,5 @@ PUBLICATIONS_SRC = "content/biblio.bib"
 #THEME = "<sustituir por la ubicacion>/pelican-themes/mnmlist"
 #THEME = "<sustituir por la ubicacion>/pelican-themes/gum"
 THEME = "content/theme/elegant"
+
+MENUITEMS = [  ] %}
