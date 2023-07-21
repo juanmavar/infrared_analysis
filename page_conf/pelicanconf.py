@@ -4,8 +4,7 @@
 AUTHOR = "Juan Manuel Varela"
 SITENAME = "Tratamiento de imágenes 2023 - Proyecto final"
 
-PATH = "/proyecto-timag/page_conf/content"
-# PATH = "content"
+PATH = "content"
 
 TIMEZONE = "America/Montevideo"
 
