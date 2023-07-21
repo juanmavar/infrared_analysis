@@ -1,7 +1,7 @@
 Title: Procedimiento
 Date: 2023-07-23
 Category: Page
-Ordinal: 002
+Ordinal: 003
 
 Se describirá el procedimiento paso a paso aplicado a la imagen de la Figura {#fig_imagen_procedimiento}.
 
