@@ -20,16 +20,16 @@ Para identificar la temperatura máxima y mínima detectada en la imagen a parti
 Como primer paso, se reconoció que los números tienen la misma fuente en todas las imágenes, por lo que se generó manualmente una base de 10 imágenes, una correspondiente a cada dígito posible. Para generar esta base se obtuvo cada dígito recortandolo de alguna imagen donde estuviera presente, se paso a escala de grises promediando los tres canales y se umbralizó de forma tal que todos los pixeles que pertenecieran al dígito tengan valor 0 y el resto 255. En la Figura {#fig_base_digitos} se puede observar la base de dígitos completa.
 
 <figure>
-  <img src="../images/base_0.png" height="60px" style="margin-right: 10px;">
-  <img src="../images/base_1.png" height="60px" style="margin-right: 10px;">
-  <img src="../images/base_2.png" height="60px" style="margin-right: 10px;">
-  <img src="../images/base_3.png" height="60px" style="margin-right: 10px;">
-  <img src="../images/base_4.png" height="60px" style="margin-right: 10px;">
-  <img src="../images/base_5.png" height="60px" style="margin-right: 10px;">
-  <img src="../images/base_6.png" height="60px" style="margin-right: 10px;">
-  <img src="../images/base_7.png" height="60px" style="margin-right: 10px;">
-  <img src="../images/base_8.png" height="60px" style="margin-right: 10px;">
-  <img src="../images/base_9.png" height="60px">
+  <img src="../images/base_0.png" style="height:60px; margin-right: 10px;">
+  <img src="../images/base_1.png" style="height:60px; margin-right: 10px;">
+  <img src="../images/base_2.png" style="height:60px; margin-right: 10px;">
+  <img src="../images/base_3.png" style="height:60px; margin-right: 10px;">
+  <img src="../images/base_4.png" style="height:60px; margin-right: 10px;">
+  <img src="../images/base_5.png" style="height:60px; margin-right: 10px;">
+  <img src="../images/base_6.png" style="height:60px; margin-right: 10px;">
+  <img src="../images/base_7.png" style="height:60px; margin-right: 10px;">
+  <img src="../images/base_8.png" style="height:60px; margin-right: 10px;">
+  <img src="../images/base_9.png" style="height:60px;">
   <figcaption>
   fig_base_digitos :: Base de imágenes con dígitos del 0 al 9.
   </figcaption>
