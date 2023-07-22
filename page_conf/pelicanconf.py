@@ -59,3 +59,42 @@ PUBLICATIONS_SRC = "content/biblio.bib"
 #THEME = "<sustituir por la ubicacion>/pelican-themes/mnmlist"
 #THEME = "<sustituir por la ubicacion>/pelican-themes/gum"
 THEME = "content/theme/elegant"
+
+# Landing Page
+PROJECTS_TITLE = "Secciones"
+PROJECTS = [
+    {
+        "name": "Introducción",
+        "url": "https://juan.manuel.varela.pages.fing.edu.uy/proyecto-timag/pages/introduccion.html",
+        "description": "",
+    },
+    {
+        "name": "Dataset",
+        "url": "https://juan.manuel.varela.pages.fing.edu.uy/proyecto-timag/pages/dataset.html",
+        "description": "",
+    },
+    {
+        "name": "Procedimiento",
+        "url": "https://juan.manuel.varela.pages.fing.edu.uy/proyecto-timag/pages/procedimiento.html",
+        "description": "",
+    },
+    {
+        "name": "Experimentos",
+        "url": "https://juan.manuel.varela.pages.fing.edu.uy/proyecto-timag/pages/experimentos.html",
+        "description": "",
+    },
+    {
+        "name": "Conclusiones",
+        "url": "https://juan.manuel.varela.pages.fing.edu.uy/proyecto-timag/pages/conclusiones.html",
+        "description": "",
+    },
+    {
+        "name": "Acerca de...",
+        "url": "https://juan.manuel.varela.pages.fing.edu.uy/proyecto-timag/pages/acerca-de.html",
+        "description": "",
+    },
+]
+
+
+LANDING_PAGE_TITLE = "ANALISIS DE CULTIVOS MEDIANTE IMAGENES INFRARROJAS"
+
