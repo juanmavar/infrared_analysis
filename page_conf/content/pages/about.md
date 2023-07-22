@@ -6,6 +6,8 @@ Ordinal: 006
 
 Curso: Tratamiento de Imágenes por Computadora 2023 - FING - UdelaR
 
+Grupo: Posgrado - 19
+
 Autor: Juan Manuel Varela
 
 Tutor: Ignacio Ramírez
