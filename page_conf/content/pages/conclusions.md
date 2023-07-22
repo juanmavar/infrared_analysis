@@ -15,27 +15,27 @@ A continuación se muestra el código de la función, que toma como entrada una 
 ``` python
 def lut_temperatura(img, base_digitos):
     # Recorte de dígitos
-    _ , t_max_1=cv2.threshold(I[46:60,282:295].mean(axis=2),190,255,cv2.THRESH_BINARY_INV) 
-    _ , t_max_2=cv2.threshold(I[46:60,291:304].mean(axis=2),190,255,cv2.THRESH_BINARY_INV) 
-    _ , t_max_3=cv2.threshold(I[46:60,304:317].mean(axis=2),190,255,cv2.THRESH_BINARY_INV) 
-    _ , t_min_1=cv2.threshold(I[179:193,282:295].mean(axis=2),190,255,cv2.THRESH_BINARY_INV) 
-    _ , t_min_2=cv2.threshold(I[179:193,291:304].mean(axis=2),190,255,cv2.THRESH_BINARY_INV) 
-    _ , t_min_3=cv2.threshold(I[179:193,304:317].mean(axis=2),190,255,cv2.THRESH_BINARY_INV)
+    _ , t_max_1=cv2.threshold(img[46:60,282:295].mean(axis=2),190,255,cv2.THRESH_BINARY_INV) 
+    _ , t_max_2=cv2.threshold(img[46:60,291:304].mean(axis=2),190,255,cv2.THRESH_BINARY_INV) 
+    _ , t_max_3=cv2.threshold(img[46:60,304:317].mean(axis=2),190,255,cv2.THRESH_BINARY_INV) 
+    _ , t_min_1=cv2.threshold(img[179:193,282:295].mean(axis=2),190,255,cv2.THRESH_BINARY_INV) 
+    _ , t_min_2=cv2.threshold(img[179:193,291:304].mean(axis=2),190,255,cv2.THRESH_BINARY_INV) 
+    _ , t_min_3=cv2.threshold(img[179:193,304:317].mean(axis=2),190,255,cv2.THRESH_BINARY_INV)
     
     # Detección de dígitos con template matching
-    d1_max=match_digit(t_max_1)
-    d2_max=match_digit(t_max_2)
-    d3_max=match_digit(t_max_3)
-    d1_min=match_digit(t_min_1)
-    d2_min=match_digit(t_min_2)
-    d3_min=match_digit(t_min_3)
+    d1_max=match_digit(t_max_1, base_digitos)
+    d2_max=match_digit(t_max_2, base_digitos)
+    d3_max=match_digit(t_max_3, base_digitos)
+    d1_min=match_digit(t_min_1, base_digitos)
+    d2_min=match_digit(t_min_2, base_digitos)
+    d3_min=match_digit(t_min_3, base_digitos)
     
     #Recomposición de temperatura
     t_max = float(d1_max + d2_max + '.' + d3_max)
     t_min = float(d1_min + d2_min + '.' + d3_min)
     
     #Generación de la LUT
-    perfil= I[72:167,310,:].astype(np.float32)
+    perfil= img[72:167,310,:].astype(np.float32)
     saltos= perfil.shape[0]-1
     deltaT= (t_max-t_min)/saltos
     lista_temperatura = np.round(t_max - np.arange(saltos+1) * deltaT, 2)

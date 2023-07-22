@@ -58,19 +58,19 @@ Por esto, para facilitar el proceso de matching, se recortan 6 ventanas que cont
 Luego, se utiliza la siguiente función sobre cada una de las 6 imágenes para identificar el dígito correspondiente.
 
 ``` python
-def match_digit(img):
+def match_digit(img, base_digitos):
     puntajes = {}
 
-    for i, img_base in imagenes_base.items():
+    for i, digito in base_digitos.items():
         
-        resultado = cv2.matchTemplate(img.astype('uint8'), img_base, cv2.TM_CCOEFF_NORMED)
+        resultado = cv2.matchTemplate(img.astype('uint8'), digito, cv2.TM_CCOEFF_NORMED)
         _, puntaje, _, _ = cv2.minMaxLoc(resultado)
         puntajes[i] = puntaje
     
     return max(puntajes, key=puntajes.get)
 
 ```
-Esta función toma la imagen recortada y la recorre con una de las imágenes de la base calculando un coeficiente de correlación para cada posición, luego se queda con el máximo valor y le asigna ese "puntaje" al digito correspondiente. Repite este proceso para todas las imágenes de la base, seleccionando finalmente el dígito con mayor "puntaje".
+Esta función toma la imagen recortada y la recorre con una de las imágenes de la base de dígitos calculando un coeficiente de correlación para cada posición, luego se queda con el máximo valor y le asigna ese "puntaje" al dígito correspondiente. Repite este proceso para todas las imágenes de la base de dígitos, seleccionando finalmente el dígito con mayor "puntaje".
 
 Al aplicar esta funcion sobre las imágenes recortadas, la misma devuelve "4", "7", "6", "2", "0" y "8" respectivamente.
 
