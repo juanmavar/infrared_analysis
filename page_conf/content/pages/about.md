@@ -8,4 +8,4 @@ Curso: Tratamiento de Imágenes por Computadora 2023 - FING - UdelaR
 
 Autor: Juan Manuel Varela
 
-Tutor: Ignacio Ramirez
+Tutor: Ignacio Ramírez

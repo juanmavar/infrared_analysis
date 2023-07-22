@@ -8,11 +8,9 @@ Como un primer paso de cara a posibles análisis posteriores, luego de la genera
 
 Para permitir la visualización de este resultado, se escaló esta matriz para que tome valores enteros entre 0 y 255, convirtiendose en una imagen de niveles de gris en la que el blanco representa la temperatura más alta y el negro la más baja.
 
-# RESULTADOS
-
 A continuación se muestra los resultados en distintas imágenes.
 
-## IMAGEN 1
+### IMAGEN 1
 
 <figure>
   <img src="../images/imagen_resultado_1.png" width="450">
@@ -22,7 +20,7 @@ A continuación se muestra los resultados en distintas imágenes.
 </figure>
 
 <figure>
-  <img src="../images/tabla_resultado_1.png" width="220">
+  <img src="../images/tabla_resultado_1.png" width="250">
   <figcaption>
   fig_tabla_resultado_1 :: Primeras 10 filas de la lookup table generada.
   </figcaption>
@@ -35,7 +33,7 @@ A continuación se muestra los resultados en distintas imágenes.
   </figcaption>
 </figure>
 
-## IMAGEN 2
+### IMAGEN 2
 
 <figure>
   <img src="../images/imagen_resultado_2.png" width="450">
@@ -45,7 +43,7 @@ A continuación se muestra los resultados en distintas imágenes.
 </figure>
 
 <figure>
-  <img src="../images/tabla_resultado_2.png" width="220">
+  <img src="../images/tabla_resultado_2.png" width="250">
   <figcaption>
   fig_tabla_resultado_2 :: Primeras 10 filas de la lookup table generada.
   </figcaption>
@@ -58,7 +56,7 @@ A continuación se muestra los resultados en distintas imágenes.
   </figcaption>
 </figure>
 
-## IMAGEN 3
+### IMAGEN 3
 
 <figure>
   <img src="../images/imagen_resultado_3.png" width="450">
@@ -68,7 +66,7 @@ A continuación se muestra los resultados en distintas imágenes.
 </figure>
 
 <figure>
-  <img src="../images/tabla_resultado_3.png" width="220">
+  <img src="../images/tabla_resultado_3.png" width="250">
   <figcaption>
   fig_tabla_resultado_3 :: Primeras 10 filas de la lookup table generada.
   </figcaption>
@@ -81,4 +79,4 @@ A continuación se muestra los resultados en distintas imágenes.
   </figcaption>
 </figure>
 
-Se puede observar que en todos los casos, en la imagen de niveles de gris se identifican las mismas estructuras que en la imagen original, lo que es un indicio de que el procesamiento es correcto.
+Se puede observar que en todos los casos, en la imagen de niveles de gris se identifican las mismas estructuras que en la imagen original, lo que es una buena señal de que el procesamiento es correcto.

@@ -4,7 +4,7 @@ Category: Page
 Ordinal: 005
 
 
-# PRINCIPALES RESULTADOS
+### PRINCIPALES RESULTADOS
 
 En este proyecto se ha desarrollado en Python, una función de procesamiento de imágenes infrarrojas que genera una lookup table para asociar el color de cada píxel con una temperatura específica. La función demostró ser capaz de correlacionar con suficiente precisión el color de los píxeles de la imagen con valores de temperatura.
 
@@ -47,7 +47,7 @@ def lut_temperatura(img, base_digitos):
 
 ```
 
-# TRABAJOS FUTUROS
+### TRABAJOS FUTUROS
 
 En cuanto a los trabajos futuros, existen varias direcciones para la mejora y expansión de este proyecto. Primero, se puede trabajar en la optimización del algoritmo para mejorar aún más la precisión de la tabla generada. Segundo, se podrían explorar diferentes métodos para correlacionar los colores de los píxeles con las temperaturas, lo que podría llevar a la generación de LUT más precisas. Además, se podría crear una función más general, que permita ser aplicada a imágenes infrarrojas cuya escala esté en otro formato, o tenga temperaturas que excedan los 99.9°C.
 
