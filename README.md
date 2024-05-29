@@ -3,8 +3,6 @@
 
 [Página web del proyecto](http://juan.manuel.varela.pages.fing.edu.uy/proyecto-timag/)
 
-[Repositorio del proyecto](https://gitlab.fing.edu.uy/juan.manuel.varela/proyecto-timag) 
-
 
 Este es el repositorio del proyecto de análisis de cultivos mediante imágenes IR.
 Este proyecto utiliza el análisis de imágenes infrarrojas para generar una lookup table (LUT) a partir de la cual se pueda relacionar el color de cada pixel con una temperatura en grados Celsius. 
